@@ -36,9 +36,9 @@ cd discord-tts # assuming you cloned it into the current directory
 
 - Go to the [Google Cloud Console](https://console.cloud.google.com/)
 - Create a new project
-- Enable the "Text-to-Speech API", probably in [this link](https://console.cloud.google.com/apis/api/texttospeech.googleapis.com)(not going to verify that either)
+- Enable the "Text-to-Speech API", probably in [this link](https://console.cloud.google.com/apis/api/texttospeech.googleapis.com)
 - Create a service account
-- Download the JSON key file
+- Create and download the JSON key file for that service account
 - Rename the JSON key file to `google-api-key.json`
 - Move the JSON key file to the root directory of the project
 
